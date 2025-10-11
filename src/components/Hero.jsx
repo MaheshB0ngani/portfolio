@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Hero({ name, title, contact, socials }) {
+export default function Hero({ name = '', title = '', contact = {}, socials = {} }) {
   return (
     <section className="relative overflow-hidden hero-gradient grid-overlay pt-20">
       <div className="container-custom px-4 py-20">
@@ -12,7 +12,7 @@ export default function Hero({ name, title, contact, socials }) {
             </h1>
             <p className="mt-3 md:mt-4 text-gray-600 text-base md:text-lg">{title}</p>
             <div className="mt-6 md:mt-8 flex items-center space-x-4 hero-icons">
-              <a href={`mailto:${contact.email}`} className="text-gray-600 hover:text-indigo-600" aria-label="email">
+              <a href={`mailto:${contact?.email ?? ''}`} className="text-gray-600 hover:text-indigo-600" aria-label="email">
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m0 8V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2h14a2 2 0 002-2z"></path></svg>
               </a>
               {socials?.linkedin && (
