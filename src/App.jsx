@@ -1,4 +1,6 @@
 import React from 'react'
+import NavBar from './components/NavBar'
+import Hero from './components/Hero'
 import Sidebar from './components/Sidebar'
 import About from './components/About'
 import Experience from './components/Experience'
@@ -11,11 +13,13 @@ import resume from './data/resume'
 export default function App() {
   return (
     <div className="min-h-screen bg-gray-50">
-      <div className="container mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-12 gap-6">
-        <aside className="md:col-span-4 lg:col-span-3">
+      <NavBar />
+      <Hero name={resume.name} title={resume.title} contact={resume.contact} />
+      <div className="container-custom px-4 py-6 grid grid-cols-1 md:grid-cols-12 gap-8">
+        <aside className="md:col-span-4 lg:col-span-3" style={{maxWidth: 320}}>
           <Sidebar resume={resume} />
         </aside>
-        <main className="md:col-span-8 lg:col-span-9">
+        <main className="md:col-span-8 lg:col-span-9 space-y-8">
           <section id="about">
             <About summary={resume.summary} profile={resume.profile} />
           </section>

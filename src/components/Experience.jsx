@@ -6,7 +6,7 @@ export default function Experience({ experiences }) {
       <h2 className="text-2xl font-bold mb-4">Experience</h2>
       <div className="space-y-6">
         {experiences.map((exp, idx) => (
-          <div key={idx} className="bg-white p-6 rounded shadow">
+          <div key={idx} className="bg-white p-6 rounded-md card-shadow">
             <div className="flex items-baseline justify-between">
               <h3 className="text-lg font-semibold">{exp.company}</h3>
               <span className="text-sm text-gray-600">{exp.period}</span>
