@@ -16,11 +16,13 @@ function SkillList({ title, items }) {
 export default function Skills({ skills }) {
   return (
     <section className="mb-12">
-      <h2 className="text-xl font-semibold mb-4">Skills</h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <SkillList title="Primary" items={skills.primary} />
-        <SkillList title="Frontend" items={skills.frontend} />
-        <SkillList title="Databases & Data" items={[...skills.databases, ...skills.dataEngineering]} />
+      <div className="bg-white p-6 rounded shadow">
+        <h2 className="text-2xl font-bold mb-4">Skills</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <SkillList title="Primary" items={skills.primary} />
+          <SkillList title="Frontend" items={skills.frontend} />
+          <SkillList title="Databases & Data" items={[...skills.databases, ...skills.dataEngineering]} />
+        </div>
       </div>
     </section>
   )
