@@ -7,9 +7,9 @@ const resume = {
   },
   socials: {
     linkedin: 'https://www.linkedin.com/in/mahesh-bongani/',
-    twitter: '',
+    twitter: 'https://x.com/IamMaheshB',
     github: 'https://github.com/MaheshB0ngani',
-    stackoverflow: '',
+    stackoverflow: 'https://stackoverflow.com/users/6160525/mahesh-bongani',
   },
   summary:
     'Senior Software Engineer with 11+ years building scalable systems across backend (.NET Core, Kafka), data engineering (Scala, Spark, Hudi, Airflow on AWS), and frontends (React/Angular/Vue). Passionate about performance, reliability, and developer experience.',
