@@ -14,7 +14,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-gray-50">
       <NavBar />
-      <Hero name={resume.name} title={resume.title} contact={resume.contact} />
+  <Hero name={resume.name} title={resume.title} contact={resume.contact} socials={resume.socials} />
       <main className="container-custom px-4 py-10 space-y-10">
         <section id="about" className="grid grid-cols-1 md:grid-cols-12 gap-6 items-start">
           <div className="md:col-span-4">

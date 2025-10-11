@@ -12,11 +12,16 @@ export default function Projects({ projects }) {
             <div className="p-6 flex-1">
               <h3 className="text-lg font-semibold">{p.title}</h3>
               <p className="text-sm text-gray-700 mt-2">{p.description}</p>
-              {/* <div className="mt-4 flex items-center gap-3 text-sm">
-                <span className="text-indigo-600 hover:underline cursor-pointer">Source</span>
-                <span className="text-gray-300">•</span>
-                <span className="text-indigo-600 hover:underline cursor-pointer">Demo</span>
-              </div> */}
+              {(p.tags?.length || p.links?.source || p.links?.demo) && (
+                <div className="mt-4 flex items-center flex-wrap gap-2 text-xs">
+                  {p.tags?.map((t, idx) => (
+                    <span key={idx} className="px-2 py-1 bg-indigo-50 text-indigo-600 rounded-full">{t}</span>
+                  ))}
+                  <span className="flex-1"></span>
+                  {p.links?.source && <a className="text-indigo-600 hover:underline" href={p.links.source} target="_blank" rel="noopener noreferrer">Source</a>}
+                  {p.links?.demo && <a className="text-indigo-600 hover:underline ml-3" href={p.links.demo} target="_blank" rel="noopener noreferrer">Demo</a>}
+                </div>
+              )}
             </div>
             <div className="absolute right-3 top-3 opacity-0 group-hover:opacity-100 transition-opacity text-gray-300 group-hover:text-gray-500">↗</div>
           </div>

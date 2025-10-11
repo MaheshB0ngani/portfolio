@@ -26,7 +26,7 @@ body { background-color: #f8fafc; color: #1f2937; }
 .hero-gradient { background: linear-gradient(120deg,#f1f5fe 0%, #ffffff 50%); }
 
 /* Subtle grid overlay */
-.grid-overlay { background-image: radial-gradient(#eef2ff 1px, transparent 1px); background-size: 56px 56px; opacity: 0.18; }
+.grid-overlay { background-image: radial-gradient(#eef2ff 1px, transparent 1px); background-size: 56px 56px; opacity: 0.80; }
 
 /* Interactive card hover states */
 .card-interactive { transition: box-shadow .2s ease, transform .2s ease; }
@@ -77,10 +77,10 @@ body { background-color: #f8fafc; color: #1f2937; }
 .section-underline { width: 56px; height: 6px; background: #2563eb; border-radius: 4px; margin-top: 10px; }
 
 /* Fallbacks in case Tailwind utilities are not applied at runtime */
-.nav-links { gap: 1.5rem; }
+/* .nav-links { gap: 1.5rem; }
 .nav-links a { display: inline-flex; align-items: center; font-size: 0.75rem; color: #6b7280; text-decoration: none; text-transform: uppercase; letter-spacing: 0.08em; }
-.nav-links a:hover { color: #111827; }
+.nav-links a:hover { color: #111827; } */
 
 /* Ensure hero icons aren’t oversized if utility classes fail */
-.hero-icons a svg { width: 24px; height: 24px; }
+/* .hero-icons a svg { width: 24px; height: 24px; } */
 

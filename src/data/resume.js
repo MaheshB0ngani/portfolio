@@ -4,7 +4,14 @@ const resume = {
   contact: {
     phone: '+1-470-662-xxxx',
     email: 'mahesh.bongani1+ghportfolio@gmail.com',
-    linkedin: ''
+    linkedin: 'https://www.linkedin.com/in/maheshbongani/'
+  },
+  socials: {
+    twitter: 'https://x.com/IamMaheshB',
+    linkedin: 'https://www.linkedin.com/in/maheshbongani/',
+    github: 'https://github.com/MaheshB0ngani',
+    stackoverflow: 'https://stackoverflow.com/users/6160525/mahesh-bongani',
+    email: 'mailto:mahesh.bongani1+ghportfolio@gmail.com'
   },
   summary:
     'With over 11 years of experience in software engineering, I deliver high-performance, scalable, and reliable systems across full-stack development, data engineering, and cloud infrastructure.',
@@ -42,12 +49,16 @@ const resume = {
     {
       title: 'Core Data Platform & Rewards Management System',
       description:
-        'Data pipelines and processes that import, clean, and process transactional data to generate rewards and reports. Technologies: Scala, Spark, Apache Hudi, Airflow, EMR, Glue.'
+        'Data pipelines and processes that import, clean, and process transactional data to generate rewards and reports. Technologies: Scala, Spark, Apache Hudi, Airflow, EMR, Glue.',
+      links: { source: '', demo: '' },
+      tags: ['Scala', 'Spark', 'Hudi', 'Airflow', 'AWS']
     },
     {
       title: 'Purchase Graph & Merchant Location Cleaning',
       description:
-        'Knowledge graph of categories, merchants and locations to clean and match transactions to store locations; improves accuracy of advertiser matching.'
+        'Knowledge graph of categories, merchants and locations to clean and match transactions to store locations; improves accuracy of advertiser matching.',
+      links: { source: '', demo: '' },
+      tags: ['Graph', 'ETL', 'Data Quality']
     }
   ],
   education: {
