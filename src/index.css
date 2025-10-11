@@ -26,7 +26,11 @@ body { background-color: #f8fafc; color: #1f2937; }
 .hero-gradient { background: linear-gradient(120deg,#f1f5fe 0%, #ffffff 50%); }
 
 /* Subtle grid overlay */
-.grid-overlay { background-image: radial-gradient(#eef2ff 1px, transparent 1px); background-size: 56px 56px; opacity: 0.80; }
+.grid-overlay { background-image: radial-gradient(#eef2ff 1px, transparent 1px); background-size: 56px 56px; opacity: 0.18; }
+
+/* Interactive card hover states */
+.card-interactive { transition: box-shadow .2s ease, transform .2s ease; }
+.card-interactive:hover { box-shadow: 0 10px 24px rgba(31,41,55,0.08); transform: translateY(-2px); }
 
 /* Timeline layout for Experience section */
 .timeline {

@@ -5,7 +5,7 @@ export default function Projects({ projects }) {
     <section className="mb-8">
       <div className="grid gap-6 md:grid-cols-2">
         {projects.map((p, i) => (
-          <a key={i} className="group bg-white rounded-md card-shadow overflow-hidden flex hover:shadow-lg transition-shadow" href="#" aria-label={p.title}>
+          <div key={i} className="group bg-white rounded-md card-shadow card-interactive overflow-hidden flex relative" href="#" aria-label={p.title}>
             {/* <div className="w-40 h-28 flex-shrink-0 overflow-hidden">
               <img src={`${import.meta.env.BASE_URL}project-placeholder.png`} alt="project" className="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-200" />
             </div> */}
@@ -18,7 +18,8 @@ export default function Projects({ projects }) {
                 <span className="text-indigo-600 hover:underline cursor-pointer">Demo</span>
               </div> */}
             </div>
-          </a>
+            <div className="absolute right-3 top-3 opacity-0 group-hover:opacity-100 transition-opacity text-gray-300 group-hover:text-gray-500">↗</div>
+          </div>
         ))}
       </div>
     </section>
