@@ -1,0 +1,137 @@
+
+Mahesh Bongani ✆ +1-470-662-5940 ✉ mahesh.bongani1@gmail.com 🔗 LinkedIn
+
+🚀 Senior Software Engineer | Full-Stack | .C# .Net | Angular, React | Data Engineering | Apache Spark | DevOps | Cloud Infra (AWS & Terraform)
+
+With over 11 years of experience in software engineering, I deliver high-performance, scalable, and reliable systems across full-stack development, data engineering, and cloud infrastructure.
+
+🔹 Backend Engineering
+* Designed and optimized .NET Core microservices, reducing API response times by 40%.
+* Improved application throughput to handle 3x more concurrent requests without scaling hardware.
+
+🔹 Data Engineering
+* Built scalable pipelines using Scala, Apache Spark, Apache Hudi, AWS S3, Glue, EMR, and Airflow.
+* Cut data processing times from 6 hours to under 2 hours, enabling near real-time analytics.
+* Reduced storage costs by 30% via optimized Hudi compaction and S3 data lifecycle policies.
+
+🔹 Frontend Development
+* Delivered responsive, high-traffic web apps in Angular, React & Vue.js with <1 second load time for critical pages.
+
+🔹 Cloud & DevOps
+* Automated AWS infrastructure with Terraform, reducing deployment cycles from 2 days to under 2 hours.
+* Migrated on-prem workloads to AWS EKS, cutting operational overhead by 50%.
+* Built CI/CD pipelines (TeamCity, Octopus), enabling daily deployments with zero downtime.
+
+🔹 Modern Ecosystem & Architecture
+* Developed Kafka-based event-driven systems processing millions of events/day.
+* Integrated Redis, MongoDB, Elasticsearch, and GraphQL (HotChocolate) for high-performance data access.
+
+💡 I thrive in roles that bridge engineering and architecture, from leading project kickoffs to building POCs and reusable templates that accelerate team onboarding. My ability to adapt quickly to new tech stacks has enabled me to contribute across backend, frontend, data, and DevOps domains.
+
+📈 Key Impact:
+
+* Reduced transaction processing time by more than 3 times, improving customer experience.
+* Increased system reliability to 99.9% uptime through robust monitoring and automated failovers.
+* Delivered multiple large-scale projects meeting tight deadlines without compromising quality.
+
+==============================
+
+» Profile Summary
+Seasoned Software Engineer with 11+ years of hands-on experience building scalable, distributed systems and full-stack applications across AdTech, FinTech, and Healthcare domains. Strong expertise in backend development using .NET Core, Kafka, and Microservices architecture, alongside strong capabilities in Data Engineering using Scala, Python, Spark, Apache Hudi, and Apache Airflow on AWS.
+Proven ability to deliver end-to-end solutions — from front-end interfaces (Angular, React, Vue) to large-scale data pipelines on cloud-native infrastructure (Docker, Kubernetes, Terraform, AWS). Adept at translating business needs into reliable, high-performance software. Experienced in system design, architecture decisions, mentoring, and leading proof-of-concepts for greenfield development.
+Collaborative, fast-learning, and proactive in adopting emerging technologies — a versatile full-stack engineer ready to contribute at scale.
+
+
+
+» Skills
+Primary Skills - C#.NET, Web APIs, .NET Core, Microservices, Docker, Kubernetes, Kafka
+Client-side - VueJS, Angular, React, JavaScript, TypeScript, HTML, CSS, Bootstrap
+Databases - SQL Server, PostgreSQL, MongoDB, Redis, Elastic Search.
+Data Engineering: Scala, Python, Spark, Datalakes using Apache Hudi, Apache Airflow, EMR cluster, AWS Glue Jobs.
+DevOps Skills – Rancher UI for Kubernetes management, TeamCity & Octopus for CI-CD, GitHub Actions, Data Dog & Sumologic for logs & alerting, Git & TFS as version controls.
+Others	 - Web sockets using SignalR and GraphQL subscriptions, GraphQL using Hot Chocolate
+Cloud Tech: Working experience on a few core AWS services like Lambda, S3, EC2, EKS, SNS, RDS, Glacier, IAM, load-balancers, Elastic Beanstalk, Elasticache, ECS, EKS, CloudWatch, Elastic Block Storage, Elastic File Storage, Terraform for Automated Infrastructure provisioning, etc...
+
+
+
+» Career Details
+Cardlytics, Inc. (6.5+ Years)
+Currently working for Cardlytics, Inc., USA as a Senior Software Engineer since Jan 2023 to date.
+Worked for Cardlytics, India, as a Senior Software Engineer from April 2019 to January 2023.
+
+In the past, I worked for GGK Technologies (now acquired by ACS & Innova Solutions) in Hyderabad from June 2014 to April 2019 (~5 years).
+
+
+
+» Work Experiences
+
+
+Client/Product: Cardlytics, Atlanta, GA 					         April 2019 – Present
+Role: Senior Software Engineer 
+
+What Cardlytics does: Cardlytics partners with major banks to analyze anonymized transaction data and understand how people spend. Using these insights, Cardlytics helps advertisers and brands target the right audiences by showing personalized cash-back offers directly inside banking apps. This creates a win-win-win — banks engage their customers better, brands increase their sales, and users get rewarded with cash back for purchases they already make
+Tech Stack Used:
+Full Stack Development: .NET Core, C#, .NET Web APIs, Worker Services, Kafka, MongoDB, SQL Server, Redis, Ping, React, Vue, Hot Chocolate GraphQL
+DevOps & Cloud: Docker, Kubernetes, Helm, Terraform, AWS, TeamCity, Octopus, Sumo Logic, Datadog
+Data Engineering: Scala, Spark, Apache Hudi, Apache Airflow, EMR Cluster, AWS Glue Jobs.
+
+Key Contributions:
+Developed scalable microservices using .NET Core, Scala, Java,  Kafka, MongoDB, and Redis, enabling real-time reward decisioning and high availability.
+Delivered full-stack features integrating Vue/React frontends with GraphQL and REST APIs for internal platforms.
+Led design and development of backend services and data pipelines processing 10M+ financial transactions daily, achieving end-to-end transaction ingestion to reward generation within 5 hours.
+Designed and optimized Apache Spark pipelines on AWS EMR and Glue, improving performance by 40% and reducing cloud costs by $8K/month.
+Implemented cost-optimized infrastructure-as-code using Terraform, Kubernetes, and AWS, improving deployment efficiency and scalability.
+Mentored junior engineers, led technical design sessions, and conducted POCs to validate architectural approaches and tools.
+Partnered with product owners to translate business needs into technical user stories, identify requirement gaps, and define implementation strategies.
+Contributed to core architecture, module scaffolding, and “happy path” flows to accelerate onboarding and delivery for new projects.
+
+Notable Projects:
+Core Data Platform & Rewards Management System:
+The Core Data platform is a collection of data pipelines and processes that import, clean, and process data from Banks and Advertisers.
+Working experience on Scala, Spark, Apache Hudi, Apache Airflow, EMR cluster, and AWS Glue Jobs to process heavy volumes of transactional data.
+Process millions of transactions daily in near real-time to make decisions on reward redemptions for eligible transactions.
+Generate various forms of reports for the advertiser to measure the campaign's success.
+
+Measurement (Partner Services):
+Partner services enable the system to create and manage cookies and tags installed on Advertisers' and banks' sites, tracking conversions, and facilitating audience generation and reporting.
+It also supports and manages third-party tags from other ad ecosystem organizations
+This system is a purely microservices-oriented, event-driven architecture deployed on AWS Cloud and Kubernetes Clusters.
+
+Purchase Graph
+Purchase Graph is a knowledge graph of Categories, Merchants, and Store Locations (and their Geography) where money can be spent. Allows custom groupings/tagging of the transaction data.
+Merchant Location Cleaning is a process that cleans transactions down to the store location level, dramatically improving efficiency and accuracy by relying on the acquiring ID passed to us with the transaction data from major Banks.
+The process of merchant cleaning involves matching payment transaction data to the correct advertiser. Daily, Cardlytics receives millions of real-world transactions from financial institutions (FIs). The Merchant Cleaning Team (MCT) uses these strings to identify where those transactions originated from.
+
+
+Client: GGK Technologies, India.					       June 2014 - April 2019
+Role: Senior Software Engineer 
+
+
+» Project: IQSmarts (IntelliQuick delivery, A logistics company)
+
+Tech Stack Used: C#.NET, Web API, Windows services, Angular, SQL Server.
+Description:
+IQSmarts system allows customers to place orders through different integration modes, which include ordering through a website as an individual single order or bulk orders as file uploads, API, or an FTP mode via JSON, XML, and CSV contract.
+Delivered cron-based schedulers to fetch data from external vendors’ API or FTP locations.
+Created user management and alerts & notification modules using C#, Angular, and SQL Server.
+Responsibilities:
+Writing business logic, unit and integration tests, and handling internal code reviews.
+Involved in the design and development of new requirements.
+Handled communication with clients and provided round-the-clock support.
+
+» Experience on Healthcare Products: CRUX & HCSC
+
+HCSC: Health Care Services Corporation
+HCSC is a health insurance company in the United States and is the licensee of the Blue Cross Blue Shield (BCBS) Association of 5 states (IL, NM, TX, MT, OK). It offers various health and life insurance products.
+
+Crux is also a HealthCare suite, which we developed in-house from scratch. This product offers real-time integration of various enrollment channels and facilitates cost-effective execution of health plan operations. There are several modules developed in CRUX; below are a few of them. 
+Enrollment
+Member Services
+Billing
+I worked on multiple modules like Enrollment Processor, Rules Engine, Member Services, and Financial Transactions for billing.
+The Enrollment processor handles the saving of application data in the DBS related to the Enrollment and Membership modules.
+Rules Engine is a service where the application is validated with configurable rules for further processing. These can be categorized, customized, and turned off with configurations from the UI.
+
+» Education
+Bachelor of Technology in Computer Science Engineering (2010-2014) from Gokaraju Rangaraju Institute of Engineering and Technology (GRIET), affiliated with JNTU-H.
+
