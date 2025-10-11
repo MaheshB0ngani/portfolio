@@ -5,7 +5,7 @@ export default function Hero({ name, title, contact }) {
     <section className="relative overflow-hidden hero-gradient grid-overlay">
       <div className="container-custom px-4 py-20">
         <div className="grid grid-cols-1 md:grid-cols-12 items-center">
-          <div className="md:col-span-7">
+          <div className="md:col-span-9">
             <p className="text-lg text-gray-600 mb-4">Hello! <span role="img" aria-label="wave">👋</span></p>
             <h1 className="hero-title font-extrabold tracking-tight leading-tight" style={{fontFamily: 'Merriweather, serif'}}>
               I&apos;m <span className="text-indigo-600">{name}</span>

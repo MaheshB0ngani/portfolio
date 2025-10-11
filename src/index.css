@@ -27,6 +27,53 @@ body { background-color: #f8fafc; color: #1f2937; }
 .grid-overlay {
 	background-image: radial-gradient(#f1f5f9 1px, transparent 1px);
 	background-size: 48px 48px;
-	opacity: 0.25;
+	opacity: 0.85;
+}
+
+/* Timeline layout for Experience section */
+.timeline {
+	position: relative;
+	padding-left: 1.5rem;
+}
+.timeline::before {
+	content: '';
+	position: absolute;
+	left: 1.25rem; /* position of the vertical line */
+	top: 0;
+	bottom: 0;
+	width: 3px;
+	background: #dbeafe; /* sky-200 */
+	border-radius: 2px;
+}
+.timeline-item {
+	position: relative;
+	margin-bottom: 1.75rem;
+}
+.timeline-dot {
+	position: absolute;
+	left: 0.75rem;
+	top: 0.75rem;
+	width: 12px;
+	height: 12px;
+	background: #2563eb; /* indigo-600 */
+	border-radius: 9999px;
+	box-shadow: 0 0 0 6px rgba(37,99,235,0.08);
+}
+.timeline-card {
+	margin-left: 2.25rem;
+}
+
+/* Left section heading style to match reference */
+.section-heading-left {
+	font-family: Merriweather, serif;
+	font-size: 2.5rem;
+	font-weight: 700;
+}
+.section-underline {
+	width: 48px;
+	height: 6px;
+	background: #2563eb; /* indigo */
+	border-radius: 4px;
+	margin-top: 8px;
 }
 
