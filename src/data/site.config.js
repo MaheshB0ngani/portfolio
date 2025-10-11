@@ -3,6 +3,8 @@ const siteConfig = {
   // Order and visibility of sections
   sections: [
     { id: 'about', label: 'About', enabled: true },
+    { id: 'what-i-do', label: 'What I do', enabled: true },
+    { id: 'proficiency', label: 'Proficiency', enabled: true },
     { id: 'projects', label: 'Projects', enabled: true },
     { id: 'experience', label: 'Experience', enabled: true },
     { id: 'education', label: 'Education', enabled: true },

@@ -6,6 +6,8 @@ import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
 import Education from './components/Education'
+import WhatIDo from './components/WhatIDo'
+import Proficiency from './components/Proficiency'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import resume from './data/resume'
@@ -31,6 +33,9 @@ export default function App() {
           </div>
           <div className="md:col-span-8"><Skills skills={resume.skills} /></div>
         </section>
+
+        <WhatIDo data={resume.whatIDo} />
+        <Proficiency items={resume.proficiency} />
 
         <section id="projects" className="grid grid-cols-1 md:grid-cols-12 gap-6 items-start">
           <div className="md:col-span-4">

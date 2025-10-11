@@ -2,27 +2,34 @@ const resume = {
   name: 'Mahesh Bongani',
   title: 'Senior Software Engineer | Full-Stack | .NET | Data Engineering',
   contact: {
-    phone: '+1-470-662-xxxx',
-    email: 'mahesh.bongani1+ghportfolio@gmail.com',
-    linkedin: 'https://www.linkedin.com/in/maheshbongani/'
+    phone: '+1-470-662-5940',
+    email: 'mahesh.bongani1@gmail.com',
   },
   socials: {
-    twitter: 'https://x.com/IamMaheshB',
-    linkedin: 'https://www.linkedin.com/in/maheshbongani/',
+    linkedin: 'https://www.linkedin.com/in/mahesh-bongani/',
+    twitter: '',
     github: 'https://github.com/MaheshB0ngani',
-    stackoverflow: 'https://stackoverflow.com/users/6160525/mahesh-bongani',
-    email: 'mailto:mahesh.bongani1+ghportfolio@gmail.com'
+    stackoverflow: '',
   },
   summary:
-    'With over 11 years of experience in software engineering, I deliver high-performance, scalable, and reliable systems across full-stack development, data engineering, and cloud infrastructure.',
+    'Senior Software Engineer with 11+ years building scalable systems across backend (.NET Core, Kafka), data engineering (Scala, Spark, Hudi, Airflow on AWS), and frontends (React/Angular/Vue). Passionate about performance, reliability, and developer experience.',
   profile:
-    'Seasoned Software Engineer with 11+ years of hands-on experience building scalable, distributed systems and full-stack applications across AdTech, FinTech, and Healthcare domains. Strong expertise in backend development using .NET Core, Kafka, and Microservices architecture, alongside strong capabilities in Data Engineering using Scala, Python, Spark, Apache Hudi, and Apache Airflow on AWS.',
+    'I deliver end-to-end solutions from UI to data pipelines and cloud infrastructure, leading POCs, mentoring teams, and driving architecture decisions for high-impact projects.',
   skills: {
-    primary: ['C#.NET', '.NET Core', 'Web APIs', 'Microservices', 'Docker', 'Kubernetes', 'Kafka'],
+    primary: [
+      'C#.NET',
+      '.NET Core',
+      'Web APIs',
+      'Microservices',
+      'Docker',
+      'Kubernetes',
+      'Kafka',
+      'Terraform',
+      'AWS',
+    ],
     frontend: ['VueJS', 'Angular', 'React', 'JavaScript', 'TypeScript', 'HTML', 'CSS'],
     databases: ['SQL Server', 'PostgreSQL', 'MongoDB', 'Redis', 'Elasticsearch'],
     dataEngineering: ['Scala', 'Python', 'Spark', 'Apache Hudi', 'Airflow', 'EMR', 'Glue'],
-    devops: ['Terraform', 'AWS', 'TeamCity', 'Octopus', 'GitHub Actions']
   },
   experience: [
     {
@@ -65,7 +72,38 @@ const resume = {
     degree: 'B.Tech in Computer Science Engineering',
     school: 'Gokaraju Rangaraju Institute of Engineering and Technology (GRIET), JNTU-H',
     years: '2010 - 2014'
-  }
+  },
+  whatIDo: {
+    title: 'What I do',
+    subtitle: 'A full stack developer who wants to explore every tech stack',
+    // Font Awesome brand icons (fab) with labels
+    techIcons: [
+      { icon: 'fab fa-html5', label: 'html5' },
+      { icon: 'fab fa-css3-alt', label: 'css3' },
+      { icon: 'fab fa-sass', label: 'sass' },
+      { icon: 'fab fa-js', label: 'javascript' },
+      { icon: 'fab fa-react', label: 'react' },
+      { icon: 'fab fa-node', label: 'nodejs' },
+      { icon: 'fab fa-npm', label: 'npm' },
+      { icon: 'fas fa-database', label: 'sql' },
+      { icon: 'fab fa-aws', label: 'aws' },
+      { icon: 'fab fa-python', label: 'python' },
+      { icon: 'fab fa-docker', label: 'docker' },
+      { icon: 'fas fa-fire-alt', label: 'firebase' },
+    ],
+    bullets: [
+      'Develop highly interactive Front end / User Interfaces for your web and mobile applications',
+      'Progressive Web Applications (PWA) in normal and SPA stacks',
+      'Integration of third party services such as Firebase / AWS / Digital Ocean'
+    ],
+    illustration: ``
+  },
+  proficiency: [
+    { label: 'Backend', value: 90 },
+    { label: 'Frontend', value: 75 },
+    { label: 'Data Engineering', value: 70 },
+    { label: 'Cloud & DevOps', value: 70 },
+  ]
 }
 
 export default resume

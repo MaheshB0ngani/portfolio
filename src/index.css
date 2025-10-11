@@ -84,3 +84,6 @@ body { background-color: #f8fafc; color: #1f2937; }
 /* Ensure hero icons aren’t oversized if utility classes fail */
 /* .hero-icons a svg { width: 24px; height: 24px; } */
 
+/* Software skill inline fallback */
+.software-skill-inline { text-align: center; }
+
