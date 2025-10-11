@@ -2,8 +2,8 @@ const resume = {
   name: 'Mahesh Bongani',
   title: 'Senior Software Engineer | Full-Stack | .NET | Data Engineering',
   contact: {
-    phone: '+1-470-662-5940',
-    email: 'mahesh.bongani1@gmail.com',
+    phone: '+1-470-662-xxxx',
+    email: 'mahesh.bongani1+ghportfolio@gmail.com',
     linkedin: ''
   },
   summary:

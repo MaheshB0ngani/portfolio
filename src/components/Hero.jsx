@@ -3,15 +3,15 @@ import React from 'react'
 export default function Hero({ name, title, contact }) {
   return (
     <section className="relative overflow-hidden hero-gradient grid-overlay">
-      <div className="container-custom px-4 py-20">
+      <div className="container-custom px-4 py-24">
         <div className="grid grid-cols-1 md:grid-cols-12 items-center">
           <div className="md:col-span-9">
-            <p className="text-lg text-gray-600 mb-4">Hello! <span role="img" aria-label="wave">👋</span></p>
-            <h1 className="hero-title font-extrabold tracking-tight leading-tight" style={{fontFamily: 'Merriweather, serif'}}>
-              I&apos;m <span className="text-indigo-600">{name}</span>
+            <p className="text-base md:text-lg text-gray-600 mb-2 md:mb-4">Hello! <span role="img" aria-label="wave">👋</span></p>
+            <h1 className="hero-title font-extrabold tracking-tight leading-tight">
+              <span className="font-mono">I&apos;m</span> <span className="text-indigo-600 font-mono">{name}</span>
             </h1>
-            <p className="mt-4 text-gray-600 text-lg">{title}</p>
-            <div className="mt-8 flex items-center space-x-4">
+            <p className="mt-3 md:mt-4 text-gray-600 text-base md:text-lg">{title}</p>
+            <div className="mt-6 md:mt-8 flex items-center space-x-4 hero-icons">
               <a href={`mailto:${contact.email}`} className="text-gray-600 hover:text-indigo-600" aria-label="email">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m0 8V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2h14a2 2 0 002-2z"></path></svg>
               </a>
