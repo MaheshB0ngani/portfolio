@@ -14,7 +14,7 @@ export default function Experience({ experiences }) {
             {experiences.map((exp, idx) => (
               <div key={idx} className="timeline-item">
                 <div className="timeline-dot" />
-                <div className="timeline-card bg-white p-6 rounded-md card-shadow">
+                <div className="timeline-card bg-white p-6 rounded-md card-shadow card-interactive">
                   <div className="flex items-start justify-between">
                     <div>
                       <h3 className="text-lg font-semibold">{exp.company}</h3>

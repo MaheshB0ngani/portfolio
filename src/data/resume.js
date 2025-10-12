@@ -12,29 +12,30 @@ const resume = {
     stackoverflow: 'https://stackoverflow.com/users/6160525/mahesh-bongani',
   },
   summary:
-    'Senior Software Engineer with 11+ years building scalable systems across backend (.NET Core, Kafka), data engineering (Scala, Spark, Hudi, Airflow on AWS), and frontends (React/Angular/Vue). Passionate about performance, reliability, and developer experience.',
+    'Senior Software Engineer with 11+ years building scalable, distributed, event driven systems across backend (.NET), data engineering (Scala, Spark, Hudi, Airflow on AWS), and frontends (React/Angular/Vue). Passionate about performance, reliability, and developer experience.',
   profile:
-    'I deliver end-to-end solutions from UI to data pipelines and cloud infrastructure, leading POCs, mentoring teams, and driving architecture decisions for high-impact projects.',
+    'I deliver end-to-end solutions from building microservices and creating User Interfaces to data pipelines and cloud infrastructure, leading POCs, mentoring teams, and driving architecture decisions for high-impact projects.',
   skills: {
     primary: [
       'C#.NET',
       '.NET Core',
       'Web APIs',
       'Microservices',
+      'Scala',
       'Docker',
       'Kubernetes',
       'Kafka',
       'Terraform',
       'AWS',
     ],
-    frontend: ['VueJS', 'Angular', 'React', 'JavaScript', 'TypeScript', 'HTML', 'CSS'],
+    frontend: ['Angular', 'React', 'VueJS', 'JavaScript', 'TypeScript', 'HTML', 'CSS', 'Bootstrap'],
     databases: ['SQL Server', 'PostgreSQL', 'MongoDB', 'Redis', 'Elasticsearch'],
-    dataEngineering: ['Scala', 'Python', 'Spark', 'Apache Hudi', 'Airflow', 'EMR', 'Glue'],
+    dataEngineering: ['Spark', 'Scala', 'Python', 'Apache Hudi', 'Apache Airflow', 'EMR', 'Glue'],
   },
   experience: [
     {
       company: 'Cardlytics, Inc.',
-      period: 'April 2019 – Present',
+      period: 'April 2019 - Present',
       role: 'Senior Software Engineer',
       bullets: [
         'Developed scalable microservices using .NET Core, Scala, Kafka, MongoDB, and Redis for real-time reward decisioning.',
