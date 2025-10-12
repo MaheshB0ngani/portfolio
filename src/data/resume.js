@@ -93,9 +93,42 @@ const resume = {
       { icon: 'fas fa-fire-alt', label: 'firebase' },
     ],
     bullets: [
-      'Develop highly interactive Front end / User Interfaces for your web and mobile applications',
-      'Progressive Web Applications (PWA) in normal and SPA stacks',
-      'Integration of third party services such as Firebase / AWS / Digital Ocean'
+      {
+        subject: 'Backend Engineering',
+        points: [
+          'Designed and optimized .NET Core microservices, reducing API response times by 40%.',
+          'Improved application throughput to handle 3x more concurrent requests without scaling hardware.'
+        ]
+      },
+      {
+        subject: 'Data Engineering',
+        points: [
+          'Built scalable pipelines using Scala, Apache Spark, Apache Hudi, AWS S3, Glue, EMR, and Airflow.',
+          'Cut data processing times from 6 hours to under 2 hours, enabling near real-time analytics.',
+          'Reduced storage costs by 30% via optimized Hudi compaction and S3 data lifecycle policies.'
+        ]
+      },
+      {
+        subject: 'Frontend Development',
+        points: [
+          'Delivered responsive, high-traffic web apps in Angular, React & Vue.js with <1 second load time for critical pages.'
+        ]
+      },
+      {
+        subject: 'Cloud & DevOps',
+        points: [
+          'Automated AWS infrastructure with Terraform, reducing deployment cycles from 2 days to under 2 hours.',
+          'Migrated on-prem workloads to AWS EKS, cutting operational overhead by 50%.',
+          'Built CI/CD pipelines (TeamCity, Octopus), enabling daily deployments with zero downtime.'
+        ]
+      },
+      {
+        subject: 'Modern Ecosystem & Architecture',
+        points: [
+          'Developed Kafka-based event-driven systems processing millions of events/day.',
+          'Integrated Redis, MongoDB, Elasticsearch, and GraphQL (HotChocolate) for high-performance data access.'
+        ]
+      }
     ],
     illustration: ``
   },

@@ -18,20 +18,30 @@ export default function WhatIDo({ data }) {
               </div>
               )}
               <div>
-                <p className="uppercase tracking-wide text-gray-400 text-xs">Crazy full stack developer who wants to explore every tech stack</p>
+                <p className="tracking-wide text-gray-400 text-s">Crazy full stack developer who wants to explore every tech stack</p>
                 <ul className="mt-4 flex flex-wrap gap-4 opacity-80">
                   {data.techIcons?.map((t, i) => (
                     <li key={i} className="software-skill-inline flex flex-col items-center w-16">
-                      <i className={`${t.icon} text-indigo-500 text-2xl`} aria-hidden="true"></i>
-                      <p className="text-[10px] uppercase tracking-wide text-gray-500 mt-1">{t.label}</p>
+                      <i className={`${t.icon} text-indigo-500 text-2xl`} aria-hidden="false"></i>
+                      <p className="text-[10px] uppercase tracking-wide px-2 py-1 bg-indigo-50 text-indigo-600 mt-1 rounded-full">{t.label}</p>
                     </li>
                   ))}
                 </ul>
-                <ul className="mt-6 space-y-3 text-gray-700 text-sm">
-                  {data.bullets?.map((b, i) => (
-                    <li key={i} className="flex"><span className="mr-2">⚡</span><span>{b}</span></li>
+
+                <div className="mt-6 space-y-6">
+                  {Array.isArray(data.bullets) && data.bullets.map((group, idx) => (
+                    <div key={idx} className="">
+                      <h3 className="text-sm font-semibold text-gray-800 flex items-center">
+                        <span className="mr-2">⚡</span>{group.subject}
+                      </h3>
+                      <ul className="mt-2 list-disc list-inside text-gray-700 text-sm space-y-1 ml-1">
+                        {group.points?.map((p, i) => (
+                            <li key={i} className="flex"><span className="mr-2 ml-2">🔹</span><span>{p}</span></li>
+                        ))}
+                      </ul>
+                    </div>
                   ))}
-                </ul>
+                </div>
               </div>
             </div>
           </div>
