@@ -19,14 +19,14 @@ export default function WhatIDo({ data }) {
               )}
               <div>
                 <p className="tracking-wide text-gray-400 text-s">Crazy full stack developer who wants to explore every tech stack</p>
-                <ul className="mt-4 flex flex-wrap gap-4 opacity-80">
+                {/* <ul className="mt-4 flex flex-wrap gap-4 opacity-80">
                   {data.techIcons?.map((t, i) => (
                     <li key={i} className="software-skill-inline flex flex-col items-center w-16">
                       <i className={`${t.icon} text-indigo-500 text-2xl`} aria-hidden="false"></i>
                       <p className="text-[10px] uppercase tracking-wide px-2 py-1 bg-indigo-50 text-indigo-600 mt-1 rounded-full">{t.label}</p>
                     </li>
                   ))}
-                </ul>
+                </ul> */}
 
                 <div className="mt-6 space-y-6">
                   {Array.isArray(data.bullets) && data.bullets.map((group, idx) => (
@@ -39,6 +39,18 @@ export default function WhatIDo({ data }) {
                             <li key={i} className="flex"><span className="mr-2 ml-2">🔹</span><span>{p}</span></li>
                         ))}
                       </ul>
+                      {/* Add icons here */}
+                      
+                      { group.techIcons && group.techIcons.length > 0 && (
+                        <ul className="mt-4 flex flex-wrap gap-4 opacity-80">
+                            {group.techIcons?.map((t, i) => (
+                                <li key={i} className="software-skill-inline flex flex-col items-center w-16">
+                                    <i className={`${t.icon} text-indigo-500 text-2xl`} aria-hidden="false"></i>
+                                    <p className="text-[10px] uppercase tracking-wide px-2 py-1 bg-indigo-50 text-indigo-600 mt-1 rounded-full">{t.label}</p>
+                                </li>
+                                ))}
+                        </ul> 
+                        )}
                     </div>
                   ))}
                 </div>

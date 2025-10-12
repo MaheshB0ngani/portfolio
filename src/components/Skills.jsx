@@ -24,7 +24,7 @@ export default function Skills({ skills = {} }) {
   return (
     <section className="mb-8">
       <div className="bg-white p-6 rounded-md card-shadow">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 xlg:grid-cols-2 gap-6">
           <SkillsIconList title="Primary" items={skills.primary ?? []} />
           <SkillsIconList title="Frontend" items={skills.frontend ?? []} />
           <SkillsIconList title="Databases" items={skills.databases ?? []} />

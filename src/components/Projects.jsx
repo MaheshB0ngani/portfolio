@@ -3,7 +3,7 @@ import React from 'react'
 export default function Projects({ projects }) {
   return (
     <section className="mb-8">
-      <div className="grid gap-6 md:grid-cols-2">
+      <div className="grid gap-6 md:grid-cols-1 xlg:grid-cols-2">
         {projects.map((p, i) => (
           <div key={i} className="group bg-white rounded-md card-shadow card-interactive overflow-hidden flex relative" href="#" aria-label={p.title}>
             {/* <div className="w-40 h-28 flex-shrink-0 overflow-hidden">
@@ -11,7 +11,7 @@ export default function Projects({ projects }) {
             </div> */}
             <div className="p-6 flex-1">
               <h3 className="text-lg font-semibold">{p.title}</h3>
-              <p className="text-sm text-gray-700 mt-2">{p.description}</p>
+              <pre className="text-sm text-gray-700 mt-2"  style={{ textWrap: 'auto' }}>{p.description}</pre>
               {(p.tags?.length || p.links?.source || p.links?.demo) && (
                 <div className="mt-4 flex items-center flex-wrap gap-2 text-xs">
                   {p.tags?.map((t, idx) => (
