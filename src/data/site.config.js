@@ -10,6 +10,14 @@ const siteConfig = {
     { id: 'education', label: 'Education', enabled: true },
     { id: 'contact', label: 'Contact', enabled: true },
   ],
+  // Analytics / tracking settings. Disabled by default. Change to `enabled: true`
+  // only after you have reviewed privacy and legal requirements and added the
+  // server-side Cloud Function and Firestore (this repo includes scaffolding).
+  analytics: {
+    enabled: true,
+    // the client posts to '/logVisit' which is rewritten to the Cloud Function.
+    endpoint: '/logVisit',
+  },
 }
 
 export default siteConfig
